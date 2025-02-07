@@ -2,9 +2,9 @@
 
 function filterArray(numbers, value) {
   let conNumber = [];
-  for (let num of numbers) {
-    if (num > value) {
-      conNumber.push(num);
+  for (let i = 0; i <= numbers.length; i++) {
+    if (numbers[i] > value) {
+      conNumber.push(numbers[i]);
     }
   }
 
